@@ -30,15 +30,6 @@ bot's code up.
 TODO: all examples provided here are in russian as I've experimented only in that language. I will
 post english examples here soon as well.
 
-### If you want to try it...
-
-You should find some text data you want your model to be trained on and define the alphabet it
-should be using. For example, I've trained some models in russian language (so i've defined russian
-alphabet in both bot and model) using my friends' telegram messages (so i've exported them). To feed
-your model with data, just simply organize it into one txt file and see char_RNN.ipynb.
-
-Then, if you've saved your model in .pth format, configure environment and launch the bot :)
-
 ### Options
 
 You can configure generated text length and temperature. To see, what the last one means, see
@@ -73,7 +64,7 @@ Friend #2
 
 Basically, model has overfitted on last discussed topics in the chat, but the style is great :)
 
-###Shtirliz jokes (found online by hand)
+### Shtirliz jokes (found online by hand)
 
 I had a very low amount of that (58 KB), so the model has severely overfitted. It just mixed the
 beginning of the joke with its end.
@@ -108,11 +99,24 @@ stick :)
 
 Last ones produced similar results to Stephen King stories, but were not that funny and creepy.
 
+
+### If you want to try it...
+
+You should find some text data you want your model to be trained on and define the alphabet it
+should be using. For example, I've trained some models in russian language (so i've defined russian
+alphabet in both bot and model) using my friends' telegram messages (so i've exported them). To feed
+your model with data, just simply organize it into one txt file and see char_RNN.ipynb.
+
+Then, if you've saved your model in .pth format, configure environment and launch the bot :)
+
+
 ### TODO
 
 * Clean up bot's code
 * Comment and reorganize .ipynb files
 * Provide examples in english.
+
+
 
 ### Important note
 
