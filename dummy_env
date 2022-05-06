@@ -1,0 +1,5 @@
+CUDA=0
+
+MODEL_NAME="MYBOT"
+TELEGRAM_API_KEY=""
+PATH_TO_MODEL="my_model.pth"
